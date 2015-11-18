@@ -1,2 +1,3 @@
 # bahmni-pih-sierraleone
-Kitchen sink for BAHMNI test/demo 
+
+moved to https://github.com/PIH/wellbody-config
