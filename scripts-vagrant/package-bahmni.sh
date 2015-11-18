@@ -19,4 +19,6 @@ tar -czf $DIST_DIR/openmrs.webapp.tgz --directory=/home/bahmni/apache-tomcat-8.0
 tar -czf $DIST_DIR/bahmnireports.webapp.tgz --directory=/home/bahmni/apache-tomcat-8.0.12/webapps bahmnireports
 tar -czf $DIST_DIR/bahmniapps.tgz --directory=/var/www bahmniapps
 mysqldump -u $MYSQL_USER -p`echo $MYSQL_PASSWORD` openmrs > $DIST_DIR/openmrs.mysqldump.sql
+cp ./configs/* $DIST_DIR
+
 
